@@ -14,7 +14,7 @@ class MainActivity : Activity() {
         val btn_hello:Button = findViewById<Button>(R.id.btn_hello)
 
         btn_hello.setOnClickListener() {
-            Toast.makeText(this, "토스트메시지",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "토스트메시지22",Toast.LENGTH_SHORT).show()
         }
         //내용 작성하기
     }
